@@ -1,4 +1,4 @@
-/* Basic setup */
+/* Basic Reset */
 * {
   margin: 0;
   padding: 0;
@@ -18,12 +18,11 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 60px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255,255,255,0.08);
   backdrop-filter: blur(6px);
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
 .logo {
@@ -107,7 +106,7 @@ body {
   font-weight: 600;
   transition: 0.4s;
   margin-right: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
 }
 
 .btn:hover {
@@ -125,7 +124,7 @@ body {
   height: 260px;
   border-radius: 50%;
   border: 5px solid #fff;
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 40px rgba(0,0,0,0.5);
   transition: 0.5s;
 }
 .image img:hover {
@@ -166,7 +165,7 @@ body {
 .about {
   text-align: center;
   padding: 80px 50px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255,255,255,0.05);
 }
 .about p {
   max-width: 800px;
@@ -185,7 +184,7 @@ body {
   list-style: none;
 }
 .skills li {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255,255,255,0.1);
   margin: 10px auto;
   width: 60%;
   padding: 12px;
@@ -193,7 +192,7 @@ body {
   transition: 0.3s;
 }
 .skills li:hover {
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255,255,255,0.25);
   transform: scale(1.05);
 }
 
